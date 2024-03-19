@@ -9,14 +9,27 @@ import Social from './Component/Social';
 import Footer from './Component/Footer';
 
 function App() {
+  
+  
   return (
     <>
-    <Navbar/>
+    
+    <Navbar />
+    <div>
     <Hero/>
+    </div>
+    <div>
     <About/>
-    <Services/>
+    </div>
+    <div >
+    <Services  />
+    </div>
+    <div>
     <Portfolio/>
+    </div>
+    <div>
     <Social/>
+    </div>
     <Footer/>
     </>
   );

@@ -35,7 +35,7 @@ const Navbar = () => {
             <ul id="menu-menu-1" className="navbar-nav">
               <li className="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-32739">
                 <a
-                  href="/"
+                  href="#home"
                   className="nav-link "
                 >
                   Home
@@ -43,7 +43,7 @@ const Navbar = () => {
               </li>
               <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
                 <a
-                  href="/"
+                  href="#about"
                   className="nav-link "
                 >
                   About
@@ -51,7 +51,16 @@ const Navbar = () => {
               </li>
               <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
                 <a
-                  href="/"
+                  href="#skill"
+                  className="nav-link "
+                  
+                >
+                  Skills
+                </a>
+              </li>
+              <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
+                <a
+                  href="#contact"
                   className="nav-link"
                 >
                   Contact
@@ -59,15 +68,7 @@ const Navbar = () => {
               </li>
               <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
                 <a
-                  href="/"
-                  className="nav-link "
-                >
-                  Services
-                </a>
-              </li>
-              <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
-                <a
-                  href="/"
+                  href="#portfolio"
                   className="nav-link "
                 >
                   Portfolio

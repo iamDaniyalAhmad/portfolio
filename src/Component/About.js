@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
 
- <div className="container" style={{marginTop:'150px'}}>
+ <div className="container" id='about' style={{marginTop:'150px'}}>
  	<div className="row align-items-center">
  		<div className="col-md-10 mx-auto col-xl-5 mb-4">
 	 <h1 className="mb-2"style={{fontSize:'58px'}}>About Me</h1>

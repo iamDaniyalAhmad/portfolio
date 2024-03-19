@@ -5,7 +5,7 @@ import dotnet from '../assets/dotnet.png'
 
 const Services = () => {
   return (
-    <div className="container" style={{ marginTop: "120px" }}>
+    <div className="container" id="skill"  style={{ marginTop: "120px" }}>
       <div className="row">
         <div className="col-md-12 text-center">
           <div className="lc-block">

@@ -7,7 +7,7 @@ import { realMedia } from '../assets/portf/realMedia';
 const Portfolio = () => {
   const [file,setFile] = useState({url:null,type:'image'});
   return (
-  <div className="container con my-5" >
+  <div className="container con my-5" id='portfolio' >
     <h1 className='d-flex justify-content-center' style={{fontSize:'55px',marginTop:'150px'}}>Portfolio</h1>
     <div className="media-container">
       {

@@ -4,7 +4,7 @@ const Social = () => {
   return (
    <>
 
-    <div className="container ">
+    <div className="container " id='contact'>
    <div className="row text-center">
       <div className="col-sm-6 col-lg-3 py-5">
          <div className="lc-block mb-5">
